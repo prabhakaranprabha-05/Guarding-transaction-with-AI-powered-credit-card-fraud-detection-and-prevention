@@ -1,0 +1,5 @@
+﻿scikit-learn==1.2.0
+pandas==1.5.2
+matplotlib==3.4.2
+seaborn==0.11.2
+joblib==1.2.0
