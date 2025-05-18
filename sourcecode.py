@@ -16,7 +16,7 @@ uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type=["csv"])
 
 if uploaded_file:
     # Load and display dataset
-    df = pd.read_csv(uploaded_file)
+    df = pd.read_csv("cdd.csv")
     st.write("### Dataset Preview", df.head())
 
     # Check for target column
